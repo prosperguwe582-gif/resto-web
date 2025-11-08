@@ -1,0 +1,121 @@
+body {
+  font-family: sans-serif;
+  margin: 50px;
+  background-color: pink;
+  box-shadow: 10px 10px 20px rgb(7, 7, 7);
+}
+.corps {
+  background-color: rgb(135, 206, 245);
+}
+.presentation,
+.text {
+  border: 15px double rgb(0, 0, 0);
+  margin: 5px;
+}
+.presentation .logo {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.presentation .logo img {
+  margin: 20px;
+  margin-right: 80px;
+  width: 200px;
+  height: auto;
+}
+.presentation .logo p {
+  margin: 40px;
+  font-size: 25px;
+}
+.restau {
+  margin: 5px;
+  font-family: "Times New Roman", Times, serif;
+}
+.corps .restau .container ol,
+.groupe_1 ol {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.text p {
+  border: 2px inset black;
+  text-align: center;
+  font-size: 25px;
+}
+h4 {
+  font-size: 30px;
+  text-indent: 40px;
+  margin: 2px;
+}
+.restau .groupe_1 li img {
+  height: 200px;
+  border-radius: 15px;
+}
+img {
+  width: 180px;
+  height: auto;
+}
+.corps .restau p {
+  font-size: 30px;
+  margin: 3px;
+}
+header {
+  background-color: #5850ec;
+  color: white;
+  padding: 20px;
+  font-size: 35px;
+}
+.tete {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.tete img {
+  height: auto;
+  width: 280px;
+}
+h3 {
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 30px;
+  margin: 5px;
+  text-transform: uppercase;
+  font-family: "Times New Roman", Times, serif;
+}
+header .container {
+  justify-content: space-between;
+  display: flex;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  font-size: 20px;
+  margin: 0.5px;
+  flex-wrap: wrap;
+}
+nav ul li {
+  margin: 0.5em;
+  background-color: rgb(145, 217, 245);
+  color: black;
+  border-radius: 20%;
+}
+.foot {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  font-size: 25px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+footer .contacte{
+  color: blue;
+}
+.foot a {
+  color: white;
+  text-decoration: none;
+}
+.foot .conta ol {
+  list-style: none;
+}
